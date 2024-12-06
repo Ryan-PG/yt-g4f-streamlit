@@ -50,8 +50,12 @@ This repository demonstrates a simple Streamlit app for interacting with G4F tha
 
 Dependencies are listed in the `requirements.txt` file:
 ```txt
-streamlit
+python-multipart
+uvicorn
+flask
+g4f[all]
 openai
+streamlit
 ```
 
 To install them, run:
